@@ -1,19 +1,19 @@
 const cheeses = [
   {
       type: 'Swiss',
-      color: 'White',
+      color: 'cornsilk',
       price: 10,
       id: 'cheese 1'
   },
   {
       type: 'Blue',
-      color: 'Blue',
+      color: 'lightsteelblue',
       price: 10,
       id: 'cheese 2'
   },
   {
       type: 'American',
-      color: 'Yellow',
+      color: 'lemonchiffon',
       price: 10,
       id: 'cheese 3'
   }

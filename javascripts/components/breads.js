@@ -18,7 +18,7 @@ const makeBreadRadioButtons = () => {
   let domString = '';
     myBread.forEach((breadX) => {
     domString +=  `<div class="form-check form-check-inline">`,
-    domString +=  `<input class="form-check-input breadRadio" type="radio" name="exampleRadios" value="option1" id="${breadX.id}">`,
+    domString +=  `<input class="form-check-input breadRadio" type="radio" name="exampleRadios" value="option1" id="${breadX.id}" style="background-color:${breadX.color}">`,
     domString +=  '<label class="form-check-label" for="exampleRadios1">',
     domString +=  `${breadX.type}`,
     domString +=  '</label>',

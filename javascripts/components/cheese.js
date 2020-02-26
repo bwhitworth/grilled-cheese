@@ -14,11 +14,11 @@ const cheeseButtonEvent = (e) => {
 };
 
 const makeCheeseButtons = () => {
-  const myCheese = cheeseData.getCheeses();
+  const allCheeses = cheeseData.getCheeses();
   let domString = '';
-    myCheese.forEach((cheeseX) => {
+    allCheeses.forEach((cheeseX) => {
       domString +=  '<div class="btn-lg">'
-      domString +=  `<button type="button" class="btn btn-warning cheese-btn" id="${cheeseX.id}">`,
+      domString +=  `<button type="button" class="btn cheese-btn" id="${cheeseX.id}" style="background-color:${cheeseX.color}">`,
       domString +=  `${cheeseX.type}`,
       domString +=  '</button>'
       domString +=  '</div>'
