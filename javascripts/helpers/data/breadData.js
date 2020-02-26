@@ -1,19 +1,19 @@
 const breads = [
   {
       type: 'White',
-      color: 'White',
+      color: 'whitesmoke',
       price: 10,
       id: '1'
   },
   {
       type: 'Wheat',
-      color: 'Brown',
+      color: 'wheat',
       price: 10,
       id: '2'
   },
   {
       type: 'Rye',
-      color: 'White',
+      color: 'tan',
       price: 10,
       id: '3'
   }
